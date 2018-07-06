@@ -1,0 +1,38 @@
+{
+  "name": "i18n-hapi",
+  "version": "0.0.0",
+  "description": "hapi多语言解决方案",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapi-union/i18n-hapi.git"
+  },
+  "keywords": [
+    "i18n",
+    "hapi",
+    "locales"
+  ],
+  "author": "136177121@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hapi-union/i18n-hapi/issues"
+  },
+  "homepage": "https://github.com/hapi-union/i18n-hapi#readme",
+  "dependencies": {
+    "accept-language-parser": "^1.5.0",
+    "boom": "^7.2.0",
+    "extend": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "standard": "^11.0.1"
+  }
+}
