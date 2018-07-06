@@ -4,6 +4,9 @@ const parser = require('./parser')
 const parseLanguage = Symbol('parseLanguage')
 const setLanguage = Symbol('setLanguage')
 class Common {
+  get extend () {
+    return extend
+  }
   get Boom () {
     return Boom
   }
